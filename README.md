@@ -9,11 +9,11 @@
 <h5>Let's change the selected element's text through Doppio<h5>
 
 <p>Html</p>
-```html
+```
 <p>A simple text</p>
 ```
 <p>JavaScript</p>
-```js
+```
 doppio("p").setText("Example text")
 ```
 <p>When viewing the site, we get the text "Example text"</p>
