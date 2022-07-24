@@ -4,6 +4,8 @@
 
 <hr>
 
+<h4>Let's start. Dopio code examples will be shown below</h4>
+
 ```
 dopio( "button" ).click(function() {
     dopio( "div" ).each(function( index, element ) {
