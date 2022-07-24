@@ -39,7 +39,7 @@ is: Used as a test for every element in the set. It accepts two arguments
 ```
   
 ```js
-// ❤️ An example of creating a plugin for doppio (As an example, hiding an element from the page)
+// ❤️ An example of creating a plugin for dopio (As an example, hiding an element from the page)
 dopioClass.prototype.hidden = function hidden() {
     for (const el of this.container) {
         el.style.display = "none";
