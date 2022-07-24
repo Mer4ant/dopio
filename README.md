@@ -24,9 +24,9 @@ dopio(".text").setText("I")
 dopio("#hi").setText("Love")
 dopio("h1").setText("You!")
 ```
-
-<h4>🍁 Below are all Dopio features and their description.</h4>
-```
+  
+```js
+// 🍁 Below are all Dopio features and their description. 
 html: Adding html code to an element
 css: Adding css code to an element
 setText: Changing the text of an element
