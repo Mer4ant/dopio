@@ -2,4 +2,4 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">A library to simplify writing JavaScript code</h3>
 
-<hr style="border: none; height: 1px">
+<hr size="3">
