@@ -9,8 +9,18 @@
 <h5>Let's change the selected element's text through Doppio<h5>
 
 <p>Html</p>
+  
 ```
-<p>A simple text</p>
+dopio( "button" ).click(function() {
+    dopio( "div" ).each(function( index, element ) {
+      // element == this
+      dopio( element ).css( "backgroundColor", "yellow" );
+      if ( dopio( this ).is( "#stop" ) ) {
+        dopio( "span" ).setText( "Stopped at div index #" + index );
+        return false;
+      }
+    });
+  });
 ```
   
 <p>JavaScript</p>
