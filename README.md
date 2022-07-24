@@ -6,7 +6,7 @@
 
 <h4>Let's start. Doppio code examples will be shown below</h4>
 
-<h5>Let's change the selected element's text through Doppio<h5>
+<h5>How to change the selected element's text through Doppio<h5>
   
 ```html
 <!-- Create an empty paragraph on html -->
