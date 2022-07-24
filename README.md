@@ -10,9 +10,8 @@
 
 <p>Html</p>
   
+```html
+<!-- Create an empty paragraph -->
+<p></p>
 ```
-doppio( "p" ).setText("")
-```
-  
-<p>JavaScript</p>
 <p>When viewing the site, we get the text "Example text"</p>
