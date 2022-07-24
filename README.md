@@ -11,20 +11,8 @@
 <p>Html</p>
   
 ```
-dopio( "button" ).click(function() {
-    dopio( "div" ).each(function( index, element ) {
-      // element == this
-      dopio( element ).css( "backgroundColor", "yellow" );
-      if ( dopio( this ).is( "#stop" ) ) {
-        dopio( "span" ).setText( "Stopped at div index #" + index );
-        return false;
-      }
-    });
-  });
+doppio( "p" ).setText("")
 ```
   
 <p>JavaScript</p>
-```
-doppio("p").setText("Example text")
-```
 <p>When viewing the site, we get the text "Example text"</p>
