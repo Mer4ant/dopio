@@ -26,12 +26,14 @@ dopio("h1").setText("You!")
 ```
 
 <h4>🍁 Below are all Dopio features and their description.</h4>
-<p>html: Adding html code to an element</p>
-<p>css: Adding css code to an element</p>
-<p>setText: Changing the text of an element</p>
-<p>on: Simplified analogue of addEventListener from vanilla JavaScript</p>
-<p>attribute: Attribute management for elements. If it takes a name, then reads the attribute, if it also takes a value, then overwrites the attribute</p>
-<p>click: If it does not accept functions, then it makes an artificial click on the object, otherwise it listens for clicks on the object</p>
-<p>addClass: Assigns a class to an element</p>
-<p>each: Iterates over the elements of the collection</p>
-<p>is: Used as a test for every element in the set. It accepts two arguments</p>
+```
+html: Adding html code to an element
+css: Adding css code to an element
+setText: Changing the text of an element
+on: Simplified analogue of addEventListener from vanilla JavaScript
+attribute: Attribute management for elements. If it takes a name, then reads the attribute, if it also takes a value, then overwrites the attribute
+click: If it does not accept functions, then it makes an artificial click on the object, otherwise it listens for clicks on the object
+addClass: Assigns a class to an element
+each: Iterates over the elements of the collection
+is: Used as a test for every element in the set. It accepts two arguments
+```
