@@ -7,11 +7,20 @@
 <h4>Let's start. Doppio code examples will be shown below</h4>
 
 <h5>Let's change the selected element's text through Doppio<h5>
-
-<p>Html</p>
   
 ```html
-<!-- Create an empty paragraph -->
+<!-- Create an empty paragraph on html -->
 <p></p>
 ```
-<p>When viewing the site, we get the text "Example text"</p>
+  
+```js
+// Change text on paragrag
+doppio("p").setText("Hello World!")
+```
+<p>Doppio supports searching for elements not only by their tag, but also by class and id</p>
+
+```js
+doppio(".text").setText("I")
+doppio("#hi").setText("Love")
+doppio("h1").setText("You!")
+```
