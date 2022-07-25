@@ -15,21 +15,21 @@
   
 ```js
 // Change text on paragrag
-dopio("p").setText("Hello World!")
+dopio("p").text("Hello World!")
 ```
 <p>Dopio supports searching for elements not only by their tag, but also by class and id</p>
 
 ```js
-dopio(".text").setText("I")
-dopio("#hi").setText("Love")
-dopio("h1").setText("You!")
+dopio(".text").text("I")
+dopio("#hi").text("Love")
+dopio("h1").text("You!")
 ```
   
 ```js
 // 🍁 Below are all Dopio features and their description. 
 html: Adding html code to an element
 css: Adding css code to an element
-setText: Changing the text of an element
+text: Changing the text of an element
 on: Simplified analogue of addEventListener from vanilla JavaScript
 attribute: Attribute management for elements. If it takes a name, then reads the attribute, if it also takes a value, then overwrites the attribute
 click: If it does not accept functions, then it makes an artificial click on the object, otherwise it listens for clicks on the object
