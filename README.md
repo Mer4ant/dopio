@@ -47,5 +47,5 @@ dopioClass.prototype.hidden = function hidden() {
 };
   
 // Testing plugin
-$(".text").hidden()
+dopio(".text").hidden()
 ```
