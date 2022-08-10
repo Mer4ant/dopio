@@ -9,7 +9,7 @@
 <h5>How to change the selected element's text through Dopio<h5>
   
 ```html
-<!-- Create an empty paragraph on html -->
+<!-- Create an empty paragraph in html -->
 <p></p>
 ```
   
@@ -27,9 +27,9 @@ dopio("h1").text("You!")
   
 ```js
 // 🍁 Below are all Dopio features and their description. 
-html: Adding html code to an element
-css: Adding css code to an element
-text: Changing the text of an element
+html: Adds html code to an element
+css: Adds css code to an element
+text: Changes the text of an element
 on: Simplified analogue of addEventListener from vanilla JavaScript
 attribute: Attribute management for elements. If it takes a name, then reads the attribute, if it also takes a value, then overwrites the attribute
 click: If it does not accept functions, then it makes an artificial click on the object, otherwise it listens for clicks on the object
