@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to<a href="https://daniilshat.ru/" target="_blank"> Dopio</a> 
+<h1 align="center">Welcome to<a href="https://daniilshat.ru/" target="_blank"> Dopio</a>  <!-- what the fuck... -->
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">A library to simplify writing JavaScript code</h3>
 
@@ -14,10 +14,10 @@
 ```
   
 ```js
-// Change text on paragrag
+// Change text in paragraph
 dopio("p").text("Hello World!")
 ```
-<p>Dopio supports searching for elements not only by their tag, but also by class and id</p>
+<p>Dopio supports searching for elements not only by their tag, but also either by class or id</p>
 
 ```js
 dopio(".text").text("I")
@@ -39,7 +39,7 @@ is: Used as a test for every element in the set. It accepts two arguments
 ```
   
 ```js
-// ❤️ An example of creating a plugin for dopio (As an example, hiding an element from the page)
+// ❤️ An example of creating a plugin for Dopio (As an example, hiding an element from the page)
 dopioClass.prototype.hidden = function hidden() {
     for (const el of this.container) {
         el.style.display = "none";
